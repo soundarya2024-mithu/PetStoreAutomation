@@ -29,5 +29,8 @@ public class Routes {
 	public static String storeGetAllInventory_url=base_url+"/store/inventory";
 	
 	//Pet Module
-		//In future here u will write Pet module URL
+	public static String petPost_url=base_url+"/pet";
+	public static String petPut_url=base_url+"/pet";
+	public static String petGet_url=base_url+"/pet/{petId}";
+	public  static String petDelete_url=base_url+"/pet/{petId}";
 }
